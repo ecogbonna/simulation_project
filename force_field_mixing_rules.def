@@ -1,0 +1,11 @@
+# general rule for shifted vs truncated
+shifted
+# general rule tailcorrections
+no
+# number of defined interactions
+X
+# type interaction, parameters. IMPORTANT: input the INTERACTION PARAMETERS - epsilon (K) and sigma (Angstrom)
+Ar            lennard-jones    X X
+C_            lennard-jones    X X
+# general mixing rule for Lennard-Jones
+Lorentz-Berthelot

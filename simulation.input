@@ -1,0 +1,30 @@
+SimulationType                MonteCarlo
+NumberOfCycles                XXX
+NumberOfInitializationCycles  XXX
+PrintEvery                    XXX
+
+Forcefield                    local
+
+Framework 0
+FrameworkName XXX
+UnitCells X X X
+ExternalTemperature XXX
+ExternalPressure XXX XXX XXX
+
+Movies yes
+WriteMoviesEvery XXX
+
+CutOffVDW 12
+
+Component 0 MoleculeName             ar
+            MoleculeDefinition       local
+			RestrictMovesToCylinder	 yes
+			Cylinder				 0
+			CylinderDirection		 Y
+			CylinderCenter			 0.5 0 0.5
+			CylinderRadius			 X
+            TranslationProbability   0.5
+            RotationProbability      X
+            ReinsertionProbability   0.5
+            SwapProbability          0.5
+            CreateNumberOfMolecules  0
